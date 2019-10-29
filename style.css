@@ -1,0 +1,65 @@
+h1 {
+    text-align: center;
+    color: black;
+  
+  }
+  body {background-image: 
+    linear-gradient(rgb(116, 228, 191), mediumseagreen)
+
+  }
+  table {
+    border-collapse: collapse;
+  }
+  table, th, td {
+    border: 1px solid black;
+  }
+
+  th {
+    height: 50px;
+  }
+
+  th, td {
+    padding: 15px;
+    text-align: center;
+  }
+
+  tr:hover {background-image: linear-gradient( #0db2e4, rgb(83, 234, 237));}
+
+  img {
+    border-radius: 50%;
+    max-width: 50%;
+    height: auto;
+  }
+
+  .container {
+    position: relative;
+    width: 50%;
+    border-radius: 50%;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 50%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(51, 151, 184);
+  }
+  
+  .container:hover .overlay {
+    opacity: .6;
+    border-radius: 50%;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
